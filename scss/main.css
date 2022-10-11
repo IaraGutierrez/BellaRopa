@@ -1,7 +1,6 @@
-
 @charset "UTF-8";
 /*-------------------Imports-----------------------*/
-@import url(/pages/contacto/contacto.scss);
+@import url(//pages/contacto/contacto.scss);
 @import url(/pages/indumentariaFemenina/indumentariaFemenina.scss);
 @import url(/pages/indumentariaMasculina/indumentariaMasculina.scss);
 @import url(/pages/indumentariaNiños/indumentariaNiños.scss);
@@ -18,7 +17,32 @@
 }
 
 body {
-  background-image: linear-gradient(to top, #9e728d, #c25cbd, #8e38a3, #342394);
+  background-image: linear-gradient(to top, #aa5587, #c229ba, #6a2394, #282ac7);
+}
+
+.masajes {
+  width: 17.75%;
+  height: 19%;
+}
+
+.velas {
+  width: 15%;
+  height: 25%;
+}
+
+.pies {
+  width: 17.75%;
+  height: 20%;
+}
+
+.sahumerios {
+  width: 17.75%;
+  height: 20%;
+}
+
+.energias {
+  width: 15.75%;
+  height: 20%;
 }
 
 .img-inicio {
@@ -28,8 +52,8 @@ body {
   background-color: grey;
 }
 
-/* contacto */
-.contacto{
+/* servicios */
+.servicios {
   margin-top: 30px;
   margin-left: 20px;
   padding: 40px;
@@ -39,8 +63,8 @@ body {
   border-style: dotted;
 }
 
-/* indumentariaFemenina */
-.indumentariaFemenina{
+/* contactos */
+.contacto {
   text-align: center;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin-left: 5%;
@@ -54,19 +78,22 @@ body {
 }
 
 .whatsapp {
+  float: left;
   width: 3%;
 }
 
 .instagram {
+  float: left;
   width: 3%;
 }
 
 .gmail {
+  float: left;
   width: 2%;
 }
 
 /*--------------------------------------------*/
-/* indumentariaNiños */
+/* soe nosotros */
 .inicios {
   background-color: rgb(181, 216, 185);
   position: initial;
