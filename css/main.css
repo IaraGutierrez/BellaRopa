@@ -15,36 +15,10 @@
   border-radius: 20%; }
 
 body {
-  background-image: linear-gradient(to top, #aa5587, #c229ba, #6a2394, #282ac7); }
+  background-image: linear-gradient(to bottom, #aa5587, #c229ba, #6a2394, #282ac7); }
 
-.masajes {
-  width: 17.75%;
-  height: 19%; }
-
-.velas {
-  width: 15%;
-  height: 25%; }
-
-.pies {
-  width: 17.75%;
-  height: 20%; }
-
-.sahumerios {
-  width: 17.75%;
-  height: 20%; }
-
-.energias {
-  width: 15.75%;
-  height: 20%; }
-
-.img-inicio {
-  text-align: center;
-  margin: auto;
-  padding: 50px;
-  background-color: grey; }
-
-/* servicios */
-.servicios {
+/* contacto*/
+.contacto {
   margin-top: 30px;
   margin-left: 20px;
   padding: 40px;
@@ -53,18 +27,17 @@ body {
   font-size: xx-large;
   border-style: dotted; }
 
-/* contactos */
-.contacto {
+/* Indumentaria Femenina */
+.indumentariaFemenina {
+  background-color: #b5d8b9;
+  position: initial;
   text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  margin-left: 5%;
-  margin-top: 5%;
-  margin-right: 5%;
-  padding-left: none;
-  padding-right: none;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  border-style: dotted; }
+  top: 50%;
+  left: 40%;
+  right: 50%;
+  font-size: 150%;
+  padding: 0.5%;
+  margin-bottom: 5%; }
 
 .whatsapp {
   float: left;
@@ -79,8 +52,8 @@ body {
   width: 2%; }
 
 /*--------------------------------------------*/
-/* soe nosotros */
-.inicios {
+/* Indumentaria masculina*/
+.indumentariaMasculina {
   background-color: #b5d8b9;
   position: initial;
   text-align: center;
@@ -94,22 +67,12 @@ body {
 img {
   width: 40%; }
 
-.historia {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-left: 5px;
-  text-align: right;
-  display: inline-block; }
-
-.machupichu {
-  width: 35%;
-  float: right; }
-
 footer {
   margin-top: 5%;
   margin-bottom: 2%; }
 
-/* pagina de turnos */
-.turnos {
+/* Indumentaria Niños */
+.indumentariaNiños {
   background-color: #b5d8b9;
   position: initial;
   text-align: center;
@@ -117,22 +80,6 @@ footer {
   left: 30%;
   right: 30%;
   font-size: 130%; }
-
-.dias {
-  font-size: x-large;
-  position: absolute;
-  margin-top: 0.5%; }
-
-.agendar {
-  text-align: center;
-  margin-top: 5%; }
-
-.ubicacion {
-  float: left;
-  width: 3%;
-  margin-left: 4%;
-  margin-top: 4%;
-  margin-bottom: 4%; }
 
 /* grid */
 #grilla {
@@ -152,28 +99,6 @@ nav {
 
 #imagenes {
   grid-area: imagenes; }
-
-footer {
-  grid-area: footer; }
-
-/* grid turnos */
-#grid {
-  display: grid;
-  grid-template-areas: "nav nav" "atencion atencion" "horarios horarios" "completar completar" "footer footer";
-  grid-template-rows: 80px 80px 50px px;
-  grid-template-columns: repeat(2, 660px); }
-
-nav {
-  grid-area: nav; }
-
-#atencion {
-  grid-area: atencion; }
-
-#horarios {
-  grid-area: horarios; }
-
-#completar {
-  grid-area: completar; }
 
 footer {
   grid-area: footer; }
@@ -207,7 +132,7 @@ footer {
   align-items: center;
   width: 100%;
   height: 20vh;
-  background-image: url(../pages/Fotos/montañas.jpg);
+  background-image: url(/fotos/colores.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
