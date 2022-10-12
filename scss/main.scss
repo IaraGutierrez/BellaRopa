@@ -25,13 +25,13 @@ body {
 
 /* contacto*/
 .contacto {
-  margin-top: 30px;
-  margin-left: 20px;
-  padding: 40px;
+  margin-top: 2%;
+  margin-left: 2%;
+  padding: 5%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-variant: small-caps;
-  font-size: xx-large;
+  font-size: x-large;
   border-style: dotted;
 }
 
@@ -50,16 +50,25 @@ body {
 
 .whatsapp {
   float: left;
-  width: 3%;
+  width: 4%;
 }
 .instagram {
   float: left;
-  width: 3%;
+  width: 4%;
 }
 .gmail {
   float: left;
-  width: 2%;
+  width: 3%;
 }
+.ellas{
+  width:20%;
+}
+#contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 /*--------------------------------------------*/
 /* Indumentaria masculina*/
 .indumentariaMasculina {
@@ -73,10 +82,14 @@ body {
   padding: 0.5%;
   margin-bottom: 5%;
 }
-img {
-  width: 40%;
+.ellos{
+  width:20%;
 }
-
+#contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 footer {
   margin-top: 5%;
@@ -91,6 +104,14 @@ footer {
   left: 30%;
   right: 30%;
   font-size: 130%;
+}
+.niños{
+  width:20%;
+}
+#contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* grid */
@@ -145,8 +166,9 @@ footer {
  margin-bottom: 5%;
 }
 
-.h2__titulo__index{
-  margin-bottom: 2%;
+.h1__titulo__index{
+  margin-bottom: 20%;
+  margin-left: 20%;
 }
 
 .imagen__h1 {
@@ -171,7 +193,7 @@ footer {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.div__h2__index {
+.div__h1__index {
   text-align: center;
 }
 
